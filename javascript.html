@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment_2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="java.css">
+<script type="text/javascript">
+
+
+	function account()
+	{
+		var firstname = document.getElementById("username").value;
+		 var secondname = document.getElementById("email").value;
+		 var thirdname = document.getElementById("password").value;
+		 var fourthname = document.getElementById("confirm password").value;
+		 document.getElementById("demo").innerHTML = 'username' +firstname+ "-" 'email' +secondname+ "--" 'password' +thirdname+'confirm password'+fourthname+;
+		 document.write('username' +firstname+ "-" 'email'+secondname+ "--" 'password' +thirdname+'confirm password' +fourthname);
+	}
+
+</script>
+</head>
+<body>
+<p id="demo"></p>
+<div class="border1 container-fluid well">
+<h1 style = " color: blue; text-align: center;"> SIGN UP</h1>
+<hr> 
+<p1> USER NAME</p1><br>
+<div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i> </span>
+            <input id="username:" type="text" class="form-control input-md" placeholder="divit patel" required>	
+            <input type="text" name="divitpatel">
+			      
+</div>
+<p1> your email</p1><br>			     
+<div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i> </span>
+            <input id="email" type="text" class="form-control input-md" placeholder="divitpatel@gmail.com" required>		
+			      
+</div>				  
+<p1> your password</p1><br>
+<div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i> </span>
+            <input id="password" type="text" class="form-control input-md" placeholder="qwerty" required>		
+			      
+</div>
+<p1> confirm your password</p1><br>
+<div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i> </span>
+            <input id="confirm password" type="text" class="form-control input-md" placeholder="enter value" required>		
+			      
+</div>
+<br><br><br>
+<button  style= " float: right;" type="button" class="btn btn-default" onclick="account()">SIGN UP</button>
+</div>
+
+ 
+    </body>
+    </html>
+
+
+
